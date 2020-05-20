@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = '1262938100:AAENQr-6sTUp5wz8oGGP5Z3wNeST7OvUkQM';
+const token = '';
 const bot = new TelegramBot(token, { polling: true });
 
 
@@ -32,7 +32,7 @@ function jsonview(obj = {}) {
 //     var location = "Bizning manzil";
 //     if (msg.text.indexOf(location) === 0) {
 //         bot.sendMessage(msg.chat.id, "👇👇👇 Bizning manzil 👇👇👇");
-//         bot.sendVenue(msg.chat.id, 38.859556, 65.806149, 'title', 'Manzil nomi');
+//         bot.sendVenue(msg.chat.id, 77, 77, 'title', 'Manzil nomi');
 //     }
 
 //     bot.sendMessage(msg.chat.id, jsonview(msg));
